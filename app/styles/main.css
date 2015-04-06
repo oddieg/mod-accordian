@@ -1,0 +1,42 @@
+.content {
+	margin: 20px auto;
+	width:800px;
+}
+.mod-accordion {
+	min-width: 100%;
+}
+.panel-group {
+	border: solid 1px #d8d8d8;
+}
+.panel-group:first-child {
+	border-top: none !important;
+}
+.panel {
+	background-color: #eee;
+	border: 0;
+	padding: 0;
+	width: 100%;
+}
+.panel-heading {
+	border-top: solid 1px #d8d8d8;
+	width: 100%;
+}
+.accordion-toggle {
+	color: inherit;
+	cursor: pointer;
+	display: block;
+	padding: 20px 70px 20px 20px;
+	position: relative;
+}
+.panel-title {
+	color: inherit;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 30px;
+	padding: 0;
+}
+
+.open {
+	background-color: #fff;
+
+}
